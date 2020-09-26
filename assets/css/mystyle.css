@@ -1,0 +1,224 @@
+body {
+ 
+/* color:#C00000;
+ font-family:calibiri;
+ background-image: url("../img/wallpaper.jpg");
+ background-size: contain;
+ background-repeat: no-repeat;*/
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #333;
+	background-color: white;
+}
+
+.img
+{
+	height:50px;
+	margin-top: 15px;
+}
+
+.text
+{
+	float:right;
+	margin-top: 15px;
+	margin-right: 40px;
+	color: rgb(32,129,115);
+
+}
+
+.admin
+{
+	margin-top: 30px;
+}
+
+.block
+{
+	background-color: white;
+	width: 100%;
+	height:auto;
+	margin-top:100px;
+
+	/*add flexbox style*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+
+.custom-file
+{
+	margin-left: 500px;
+	margin-right: 500px;
+}
+
+.box
+{
+	width: 20%;
+	height:300px;
+	background-color: #D3D3D3;
+	margin:20px;
+	box-sizing: border-box;
+
+}
+
+.mydiv
+{
+	width: 40%;
+	height:50px;
+	background-color: white;
+	margin:20px;
+	box-sizing: border-box;
+
+}
+
+.dropsize
+{
+	width: 100%;
+	height: 100%;
+	background-position: 100%;
+	float: left;
+	color: black;
+	background-color: #D3D3D3;
+
+
+}
+
+.A
+{
+	background-color: white;
+	width: 100%;
+	height:auto;
+	margin-top:100px;
+
+	/*add flexbox style*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+
+
+
+@media screen and (max-width: 1200px)
+{
+	.header
+	{
+		width:40%;
+
+	}
+	.cen{
+	margin-left: 500px !important;
+	margin-right: 500px !important;
+}
+	
+}
+
+@media screen and (max-width: 600px)
+{
+	.header
+	{
+		width:90%;
+	}
+	.mv
+	{
+		margin-left: 272px !important;
+	}
+
+}
+
+
+
+@media screen and (max-width: 1200px)
+{
+	.admin
+	{
+		width:40%;
+	}
+	
+	.mv
+	{
+		margin-left: 272px !important;
+	}
+	.t1{
+		margin-left:324px !important;
+	}
+
+	.g1{
+		width:100% !important;
+		display: inline-block !important;
+	}
+	.l1{
+		margin-left:0px !important;
+		width:100%;
+	}
+}
+
+
+@media screen and (max-width: 600px)
+{
+	.admin
+	{
+		width:90%;
+	}
+	
+}
+
+@media screen and (max-width: 1200px)
+{
+	.box
+	{
+		width:40%;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.box
+	{
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.box
+	{
+		width:40%;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.box
+	{
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.C
+	{
+		width:40%;
+
+	}
+	
+}
+
+@media screen and (max-width: 600px)
+{
+	.C
+	{
+		width:90%;
+	}
+	.cen{
+	margin-left: 500px !important;
+	margin-right: 500px !important;
+}
+}
+
+
+

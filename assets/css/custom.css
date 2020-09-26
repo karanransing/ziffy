@@ -1,0 +1,59 @@
+
+td, th {
+  padding: 0.5rem;
+}
+
+.menu_active
+{
+  color: #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.table_header
+{
+  background-color: darkorange;
+  padding: 20px;
+}
+
+  .action_button
+  {
+      width: 100%;
+    text-transform: uppercase;
+  }
+
+  .hide_me
+  {
+    display: none;
+  }
+
+  .show_me
+  {
+    display: block;
+  }
+  
+  
+  
+  .col-md-8
+  {
+    margin-bottom: 15px !important;   
+  }
+  
+  .login-logo {
+  text-align: center;
+  margin-bottom: 15px; }
+  .login-logo span {
+    color: #ffffff;
+    font-size: 24px; }
+
+.login-content {
+  max-width: 540px;
+  margin: 20vh auto; }
+
+.login-form {
+    background:#00000008;
+  padding: 30px 30px 20px;
+  border-radius: 2px; }
+  

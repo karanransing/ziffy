@@ -1,0 +1,314 @@
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-header
+{
+    margin-top:10px;
+}
+.m1{
+       margin-top:-2px !important; 
+    }
+ .headertext
+    {
+        margin-left: 150px;
+        font-size: 1.5em;
+    }
+    .col-md-6
+    {
+       width: 50%;
+       float: left;
+    }
+    
+    .box_div_new
+    {
+        line-height: 20vh !important;
+    }
+    
+    .rating_img_5
+    {
+        width: 33%; 
+    }
+  
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+ .box_div_new
+    {
+        line-height: 20vh !important;
+    }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ .box_div_new
+    {
+        line-height: 20vh !important;
+    }
+  .m1{
+       margin-top:-2px !important; 
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .box_div_new
+    {
+        line-height: 20vh !important;
+    }
+    
+    .rating_img_5
+    {
+        width: 33%; 
+    }
+  .m1{
+       margin-top:-2px !important; 
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .headertext
+     {
+         font-size:2em;
+     }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ .box_div_new
+{
+    line-height: 20vh !important;
+} 
+
+.rating_img_5
+{
+    width: 32%; 
+}
+  .m1{
+       margin-top:-2px !important; 
+    }
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  
+ .box_div_new
+{
+    line-height: 20vh !important;
+} 
+
+.rating_img_5
+{
+    width: 32%; 
+}
+  .m1{
+       margin-top:-2px !important; 
+    }
+    
+    .box_div
+    {
+        height: 52px;
+    }
+    
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .box_div_new
+{
+    line-height: 20vh !important;
+}
+.m1{
+       margin-top:-2px !important; 
+    }
+    
+  .navbar-header
+{
+    margin-top:10px;
+}
+
+ .logo
+ {
+     width:180px;
+ }
+ .telgu_name 
+ {
+    margin-left: 32px;
+    color: #C00000;
+    font-size: 1em;
+ }
+ 
+ .tamil_name 
+ {
+    margin-left: 32px;
+    color: #C00000;
+    font-size: 1em;
+ }
+ .headertext
+ {
+     margin-left:-80px;
+ }
+ 
+ .name {
+    /*font-size: 11px;*/
+ }
+ 
+ .rating_img
+ {
+     width:70%;
+     height:auto;
+ }
+ 
+    .col-md-6
+    {
+       width: 50%;
+       float: left;
+    }
+    
+.box_div_new
+{
+    line-height: 5vh !important;
+}
+
+.rating_img_5
+{
+    width: 45%; 
+}
+
+
+  
+} 
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo-img
+    {
+        display: block;
+        max-width: 40%;
+        height: auto;
+    }
+    
+    .m1{
+       margin-top:-2px !important; 
+    }
+    .rating_img_5
+    {
+        width: 46%; 
+    }
+ 
+  .navbar-header
+{
+    margin-top:10px;
+}
+
+ .logo
+ {
+     width:180px;
+ }
+ .headertext
+ {
+     margin-left:-103px;
+ }
+ 
+ .name {
+    font-size: 17px;
+ }
+ 
+ .rating_img
+ {
+     width:70%;
+     height:auto;
+ }
+ 
+ .box_div_new
+{
+    line-height: 5vh !important;
+}
+
+.col-md-6
+    {
+       width: 50%;
+       float: left;
+    } 
+    
+    .box_div
+    {
+        height: 94px;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 731px) {
+    .name 
+    {
+    font-size: 20px;
+ }
+}
+
+@media (max-width: 480px) and (min-width: 320px){
+    
+    .tamil_name
+      {
+        font-size: 0.8em; 
+      }
+    .telgu_name
+    {
+      font-size: 0.8em;  
+    }
+    .name {
+        font-size: 14px;
+    }
+    .headertext {
+        margin-left: -274px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 667px) and (min-width: 375px){
+    .name {
+        font-size: 18px;
+    }
+    .headertext {
+        margin-left: -274px;
+    }
+}
+
+@media (max-width: 667px) and (min-width: 375px){
+    .name {
+        font-size: 18px;
+    }
+    .headertext {
+        margin-left: -274px;
+            margin-right: 10px;
+    }
+}
